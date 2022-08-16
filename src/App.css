@@ -1,5 +1,10 @@
-.App {
+body {
   text-align: center;
+  background-image: url("../src/components/res/backgroundImage.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .App-logo {
