@@ -1,0 +1,96 @@
+.add-student-form{
+    border-radius: 5px;
+    padding:20px;
+    border:2px solid #000;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;   
+    justify-content: space-evenly;
+    background-color: #FFC132;
+    -webkit-box-shadow: 5px 5px 0px 3px #000000; 
+box-shadow: 5px 5px 0px 3px #000000;
+}
+
+.form-text-input{
+    margin-top:20px;
+    color:#000;
+    background-color:#FFC132 ;
+    width: 100%;
+    border: 3px solid #000;
+    border-radius: 5px;
+    padding:2px;
+    font-size: 1.6rem;
+}
+
+
+
+.form-text-input::placeholder{
+    color:rgb(76, 75, 75);
+}
+
+.floating-label {
+    position: absolute;
+    pointer-events: none;
+    left: 20px;
+    top: 18px;
+    transition: 0.2s ease all;
+  }
+
+.form-number-input{
+    margin-top:20px;
+    color:#000;
+    background-color:#FFC132 ;
+    width: 100px;
+    height: 40px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding:2px;
+    font-size: 1.6rem;
+}
+
+input[type="number"] {
+    -webkit-appearance: textfield;
+       -moz-appearance: textfield;
+            appearance: textfield;
+  }
+  input[type=number]::-webkit-inner-spin-button, 
+  input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+  }
+
+  .change-number{
+    position: relative;
+    top:-2px;
+    padding: 5px;
+    border-radius:5px;
+    font-size: 1.3rem;
+    background-color: #FFC132;
+    border:1px solid #000;
+  }
+
+  .change-number:hover{
+    cursor: pointer;
+  }
+ 
+  .change-number:hover{
+    cursor: pointer;
+  }
+
+  .form-section-title{
+    font-size: 1.6rem;
+  }
+
+ .minus{
+    padding: 6px;
+ }
+
+ .minus:hover{
+  cursor: pointer;
+ }
+
+ .number-input-group{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around
+ }
