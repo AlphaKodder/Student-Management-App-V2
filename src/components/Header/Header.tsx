@@ -12,7 +12,7 @@ const Header = ()=>{
             <img src={PageLogo} className="page-logo" />
             <ul className="navigator-list">
                 <li><Link to="/" className="navigator-list-item">Home</Link></li>
-                <li><Link to="/" className="navigator-list-item">Students</Link></li>
+                <li><Link to="/students" className="navigator-list-item">Students</Link></li>
                 <li><Link to="/" className="navigator-list-item">Groups</Link></li>
                 <li><Link to="/" className="navigator-list-item">Courses</Link></li>
                 <li><Link to="/" className="navigator-list-item">Teachers</Link></li>
@@ -27,7 +27,7 @@ const Header = ()=>{
             <div className="menu-items">
                 <div className="menu-items-list">
                     <li><Link to="/" className="navigator-list-item side-menu-item">Home</Link></li>
-                    <li><Link to="/" className="navigator-list-item side-menu-item">Students</Link></li>
+                    <li><Link to="/students" className="navigator-list-item side-menu-item">Students</Link></li>
                     <li><Link to="/" className="navigator-list-item side-menu-item">Groups</Link></li>
                     <li><Link to="/" className="navigator-list-item side-menu-item">Courses</Link></li>
                     <li><Link to="/" className="navigator-list-item side-menu-item">Teachers</Link></li>

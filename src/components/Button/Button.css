@@ -1,0 +1,16 @@
+.action-button{
+    
+    color:#000;
+    font-size: 1.4rem;
+    padding:15px;
+    border:none;
+    border-radius:5px;
+    font-weight: bold;
+    -webkit-box-shadow: -1px -1px 18px -8px rgba(0,0,0,0.62); 
+    box-shadow: -1px -1px 18px -8px rgba(0,0,0,0.62);
+    margin-top:20px;
+}
+
+.action-button:hover{
+    cursor: pointer;
+}
