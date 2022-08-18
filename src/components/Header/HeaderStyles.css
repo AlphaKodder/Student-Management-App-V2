@@ -48,8 +48,9 @@ header{
   }
 
   .nav-container{
+    position: sticky;
     display: none;
-    z-index: 20;
+    z-index: 999999999;
   }
 
 
@@ -59,9 +60,10 @@ header{
     height: 62px;
     width: 62px;
     top:20px;
-    right: 20px;
-    z-index: 5;
+    right: 0px;
+    z-index: 9999;
     opacity: 0;
+    background-color: red;
     cursor: pointer;
   }
 
@@ -72,10 +74,10 @@ header{
     position: absolute;
     top: 40px;
     right: 20px;
-    z-index: 2;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    z-index: 190;
   }
 
   .nav-container .hamburger-lines .line {
@@ -124,8 +126,7 @@ header{
   }
 
   .menu-items{
-   
-    z-index: -100;
+
     position: fixed;
     height: 100%;
     right: 0px;
