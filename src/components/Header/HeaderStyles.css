@@ -1,17 +1,16 @@
 header{
-    position:sticky;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     background-color:#3D3D3D ;
-    padding:20px
+    padding: 20px
 }
 
 .navigator-list{
-    margin-top:20px;
-    display:flex;
+    margin-top: 20px;
+    display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content: space-around;
     width: 100%;
     color:#fff;
     font-size: 1.4rem;
@@ -48,14 +47,13 @@ header{
   }
 
   .nav-container{
-    position: sticky;
     display: none;
     z-index: 999999999;
   }
 
 
   .nav-container .checkbox{
-    position:absolute;
+    position: absolute;
     display: block;
     height: 62px;
     width: 62px;
@@ -101,11 +99,12 @@ header{
     transform-origin: 0% 100%;
     transition: transform 0.4s ease-in-out;
   }
-  
+
   .nav-container input[type="checkbox"]:checked ~ .menu-items {
-    transform: translateX(0px);
+    display: initial;
   }
   
+
   .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
     transform: rotate(45deg);
     background-color: #000;
@@ -116,18 +115,19 @@ header{
     background-color: #000;
   }
   
+
   .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
     transform: rotate(-45deg);
     background-color: #000;
   }
   
+
   .nav-container input[type="checkbox"]:checked ~ .logo{
     display: none;
   }
 
-  .menu-items{
-
-    position: fixed;
+  .menu-items {
+    position: absolute;
     height: 100%;
     right: 0px;
     top:0px;
@@ -135,11 +135,10 @@ header{
     background-color: #FFC132;
     transition: transform 0.5s ease-in-out;
     text-align: center;
-    transform: translateX(600px);
+    display: none;
   }
 
   .menu-items-list{
-    margin-top:20px;
     display: flex;
     flex-direction: column;
     list-style-type: none;
