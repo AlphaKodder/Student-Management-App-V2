@@ -14,6 +14,7 @@ import Header from './components/Header/Header';
 import Main from './components/Main/Main';
 import React from 'react';
 import Students from './components/Main/Students/Students';
+import Teachers from './components/Main/Teachers/Teachers';
 import Welcome from './components/Main/Welcome/Welcome';
 import logo from './logo.svg';
 
@@ -28,9 +29,9 @@ function App() {
             <Route path="/students" element = {<Students/>}/>
             <Route path="/groups" element={<Groups/>}/>
             <Route path="/courses" element={<Courses/>} />
+            <Route path="/teachers" element ={<Teachers/>} />
         </Routes>
       </Main>
-        
        <Footer/>
       </BrowserRouter>
     </div>
