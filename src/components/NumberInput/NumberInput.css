@@ -1,0 +1,56 @@
+.number-input-container{
+    position:relative;
+    width: 80px;
+    height: 50px;
+    border-radius: 40px;
+    border:2px solid #F05B40;
+    transition: 0.5s;
+    margin-left:40px;
+ }
+
+  .number-input-container:hover{
+    width: 120px;
+    border:2px solid  #F05B40 ;
+  }
+
+  .number-input-container .next{
+    position: absolute;
+    top:50%;
+    right: 30px;
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-top: 2px solid #000;
+    border-left: 2px solid #000;
+    z-index:1;
+    transform: translateY(-50%) rotate(135deg);
+    cursor:pointer;
+    opacity:0;
+    transition:0.5s;  
+  }
+
+  .number-input-container:hover .next{
+    opacity:1; 
+    right: 20px;
+  }
+
+  .number-input-container .prev{
+    position: absolute;
+    top:50%;
+    left: 30px;
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-top: 2px solid #000;
+    border-left: 2px solid #000;
+    z-index:1;
+    transform: translateY(-50%) rotate(315deg);
+    cursor:pointer;
+    opacity:0;
+    transition:0.5s;  
+  }
+
+  .number-input-container:hover .prev{
+    opacity:1; 
+    left: 20px;
+  }
