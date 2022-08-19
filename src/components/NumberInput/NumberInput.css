@@ -1,5 +1,7 @@
 .number-input-container{
     position:relative;
+    font-size: 1.4rem;
+    font-weight: bold;
     z-index: 1;
     width: 80px;
     height: 50px;

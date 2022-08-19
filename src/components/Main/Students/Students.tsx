@@ -127,7 +127,6 @@ const Students = ()=>{
                 </tbody>
                 </table>
            </div> 
-            
         </div>
     );
 };
