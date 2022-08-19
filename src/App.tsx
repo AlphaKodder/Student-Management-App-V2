@@ -7,6 +7,7 @@ import {
   Routes
 } from 'react-router-dom';
 
+import Courses from './components/Main/Courses/Courses';
 import Footer from './components/Footer/Footer';
 import Groups from "./components/Main/Groups/Groups";
 import Header from './components/Header/Header';
@@ -26,6 +27,7 @@ function App() {
             <Route path="/" element={<Welcome/>} />
             <Route path="/students" element = {<Students/>}/>
             <Route path="/groups" element={<Groups/>}/>
+            <Route path="/courses" element={<Courses/>} />
         </Routes>
       </Main>
         
